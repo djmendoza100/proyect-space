@@ -1,0 +1,140 @@
+/* estilos generales */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.3%;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1, h2, h3,h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    display: inline-block;
+    padding: 1rem;
+    color: azure;
+    text-decoration: none;
+    
+}
+
+body{
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    color: azure;
+}
+
+header{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(4, 21, 53);
+    background-image: url(../assets/home/background-home-desktop.jpg);
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-position: right;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3rem;
+    
+
+    
+}
+
+header nav{
+    align-items: center;
+    display: flex;
+    height: 90px;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+header nav figure{
+    flex: 1;
+    height: 90px;
+    display: grid;
+    place-content: center;
+    
+}
+
+header .container-line{
+    flex: 4;
+    height: 1px;
+    position: relative;
+    right: -30px;
+    background-color: rgba(158, 153, 153, 0.219);
+}
+
+header .container-menu__link{
+    background-color: rgba(2, 2, 46, 0.596);
+    font-size: 1.6rem;
+    width: 60%;
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(to right, #070c1ad8, #354258ef, #354258ef,#0b132a, #0B1431);
+    border: 1px #070c1ad8;
+}
+
+header a span{
+    margin-right: .7rem;
+}
+
+section{
+    
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+section article{
+
+    flex: 1 0 20%;
+    
+    height: inherit;
+    display: grid;
+    place-content: center;
+   
+}
+.article-parrafo{
+    width: 550px;
+    min-width: 320px;
+}
+
+section article h1{
+    font-size: 14rem;
+    letter-spacing: 2rem;
+}
+
+section .contenedor-texto__explore{
+    flex: 1;
+    height: inherit;
+    display: grid;
+    place-content: center;
+    padding-top: 6rem;
+}
+
+.container-explore{
+    align-items: center;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+    border: solid 4px;
+    font-size: 3.5rem;
+    letter-spacing: 1rem;
+    width: 280px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+}
